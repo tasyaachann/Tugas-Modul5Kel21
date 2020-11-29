@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  font-weight: normal;
+  font-size: 20px;
+  
 }
 
 .App-logo {
@@ -13,6 +16,11 @@
   }
 }
 
+.site-card-wrapper {
+  padding: 30px;
+  background: #ececec;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -22,6 +30,33 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.center {
+  text-align: center;
+  font-weight: bold;
+}
+
+.img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+.grid-container {
+  display: grid;
+  height: 250px;
+  align-content: center;
+  background-color: #3d8d86;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(190, 255, 225, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
 }
 
 .App-link {
